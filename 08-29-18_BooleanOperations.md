@@ -1,6 +1,5 @@
 ## Boolean Operations:
-std::cin.ignore() ignores the input of the user up to the specified character if the space in the parenthesis is left blank, then the default is the next character in the buffer is
-ignored
+``std::cin.ignore()`` ignores the input of the user up to the specified character if the space in the parenthesis is left blank, then the default is the next character in the buffer is ignored.
 
 
 
