@@ -4,7 +4,7 @@
 
 ## Precedence:
 |Precedence| Logical Expression|
-| ---
+| --- | --- |
 |5  | 	a*b   a/b   a%b 	Multiplication, division, and remainder
 |6  | 	a+b   a-b 	Addition and subtraction
 |7  | 	<<   >> 	Bitwise left shift and right shift
@@ -37,7 +37,7 @@
 
 ## Misc Keywords:
 |Keyword | Description|
-|---
+|--- | --- |
 |new | Used to add allocate storage to a variable, most commonly an array. This can be risky because the memory is not destructed until a matching delete-expression.
 
       Example:
@@ -46,5 +46,5 @@
           tptr->~T();                      // destruct
           delete[] ptr;                    // deallocate memory
 |Keyword|Description|
-|--
+|-- | --- |
 |delete| Used to deallocate memory
