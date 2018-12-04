@@ -1,5 +1,7 @@
 # Sorting Algorithms
 
+Sorting algorithms take a list of elements, often primitive data types, and sort them according to ascending or descending value. There are many methods of sorting the elements with varying efficiency. The following algorithms are arranged in order of increasing efficiency with the exception of Insertion and Bubble sort.
+
 * Insertion Sort
 * Bubble Sort
 * Selection Sort
