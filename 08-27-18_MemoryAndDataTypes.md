@@ -51,8 +51,8 @@ There are a few key naming rules for naming variables:
 2. *Variable names may not start with a number*
 3. *Variable names may only contain letters and numbers*
 
-      ``int 3_littlepigs, ex.calibur, @nonymous; // Illegal variable names
-      int h3llo, Yol0; // Legal variable names``
+      int 3_littlepigs, ex.calibur, @nonymous; // Illegal variable names
+      int h3llo, Yol0; // Legal variable names
 
 
 ## Misc Notes:
