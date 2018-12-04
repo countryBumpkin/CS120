@@ -1,7 +1,7 @@
 # *Data Types and Memory:*
 
 | Data Type | Size(Bytes) |    Range  |
-| ---
+| --- | --- | --- |
 |char    |   1 byte    | -127 to 127 or 0 to 255
 |u char  |   1 byte    |  0 to 255
 |s char  |   1 byte    | -127 to 127
