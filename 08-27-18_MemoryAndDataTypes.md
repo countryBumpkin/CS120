@@ -39,5 +39,15 @@ short int excess = 32767; //Max positive value of int data type
 excess++; //Increment excess by one
 std::cout << excess << std::endl; //Prints 0
 
+## Variable Names ##
+There are a few key naming rules for naming variables:
+1. Variable names may not contain spaces
+2. Variable names may not start with a number
+3. Variable names may only contain letters and numbers
+
+   int 3_littlepigs, ex.calibur, @nonymous; // Illegal variable names
+   int h3llo, Yol0; // Legal variable names
+
+
 ## Misc Notes:
 Const Keyword: *cannot be changed after initialization*
