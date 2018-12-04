@@ -39,12 +39,10 @@
 |Keyword | Description|
 |--- | --- |
 |new | Used to add allocate storage to a variable, most commonly an array. This can be risky because the memory is not destructed until a matching delete-expression.
-
+|delete| Used to deallocate memory
       Example:
           char* ptr = new char[sizeof(T)]; // allocate memory
           T* tptr = new(ptr) T;            // construct in allocated storage ("place")
           tptr->~T();                      // destruct
           delete[] ptr;                    // deallocate memory
-|Keyword|Description|
-|-- | --- |
-|delete| Used to deallocate memory
+
