@@ -1,5 +1,11 @@
 # *Data Types and Memory:*
 
+_**Data Type:**_ A block of memory that contains binary information (1s & 0s). Data types define rules for interpreting the binary information so that it can be translated into numbers or characters and used by the program.
+
+_**Primitive Data Type:**_ Characters, integers (any number >= 0), doubles (numbers with pricision up to six decimal places: 0.000000), and floats (numbers accurate to one decimal place: 0.0). 
+
+The simplest data types, like integers and characters, are called primitives. Primitive data types are form the basis for all program functionality yet there are many variations the main flavors of primitive data types.
+
 | Data Type | Size(Bytes) |    Range  |
 | --- | --- | --- |
 |char    |   1 byte    | -127 to 127 or 0 to 255
@@ -41,12 +47,12 @@ std::cout << excess << std::endl; //Prints 0
 
 ## Variable Names ##
 There are a few key naming rules for naming variables:
-1. Variable names may not contain spaces
-2. Variable names may not start with a number
-3. Variable names may only contain letters and numbers
+1. *Variable names may not contain spaces*
+2. *Variable names may not start with a number*
+3. *Variable names may only contain letters and numbers*
 
-   int 3_littlepigs, ex.calibur, @nonymous; // Illegal variable names
-   int h3llo, Yol0; // Legal variable names
+      int 3_littlepigs, ex.calibur, @nonymous; // Illegal variable names
+      int h3llo, Yol0; // Legal variable names
 
 
 ## Misc Notes:
