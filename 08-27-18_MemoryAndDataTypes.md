@@ -39,25 +39,5 @@ short int excess = 32767; //Max positive value of int data type
 excess++; //Increment excess by one
 std::cout << excess << std::endl; //Prints 0
 
-
-## Program Data Usage Example:
-If the following variables are initialized in a program, what is the minimum amount
-of memory required for the program to run?
-
-min(int) = 4 bytes
-max(int) = 4 bytes
-temp_value(float) = 4 bytes
-max_value(double) = 8 bytes
-char_1(char) = 1 byte
-current_num(const int) = 4 bytes
-PI(double) = 8 bytes
-
-Therefore, the memory size required is:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Total Program Memory Usage: 33 bytes |
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* Remember, 1 Byte = 8 bits, therefore 4 bytes = 32 bits or 8^31
-
 ## Misc Notes:
 Const Keyword: *cannot be changed after initialization*
