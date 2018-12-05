@@ -1,4 +1,4 @@
-# **CS120 Final Exam Topics**
+# **CS120 Final Exam Topics** #
 ***
 
 **These topics will be the focus of the final:**
@@ -19,16 +19,29 @@
   * *5 Types of Sorting*
 * Recursion
 
-###### *Program Analysis(20pts):*
+## Exam Sections And Point Breakdown ##
+---
+
+###### *True or False(20pts):* ######
+
+###### *Short Answer(15pts):* ######
+* Software Engineering (development, testing)
+* Recursion
+* Sorting/Searching
+* Dynamic memory (Linked Lists)
+* Ethics
+
+###### *Program Analysis(20pts):* ######
 * Evaluate program output
 
-###### *Programming Section Contents(50pts):*
+###### *Programming Section Contents(50pts):* ######
 * Recursion
 * Linked Lists
 * Classes
 
 
-## *Recursion*
+## *Recursion* ##
+---
 **recursion:** any function that calls itself
 Be able to write recursive fuctions for simple math calculations such as:
 * power
@@ -45,8 +58,11 @@ Be able to write recursive fuctions for simple math calculations such as:
         return (power(base, exponent - 1) * base);
       }else{return 1;}
     }
+    
+    
 
-## *Structures*
+## *Structures* ##
+---
 **declaration:** Can be initialized at declaration, generally don't have a constructor.
 
     struct struct_type{
@@ -54,14 +70,34 @@ Be able to write recursive fuctions for simple math calculations such as:
     }
 
     struct_type pet = {1, 2, 4}; //Variables are initialized sequentially
+    
+    
 
-## *Scope*
+## *Scope* ##
+---
 1. Block
    * Anything in {}
 2. File/Global
    * Essentially global scope
-3. Local
+3. Local/Function
    * Only within a function
+   
+   
 
-## *Professional Ethics for Computer Programmers*
+## *Professional Ethics for Computer Programmers* ##
+---
 * Privacy and Misuse of data
+* Plagiarism and Software Piracy
+* Misuse of a Computer Resource
+
+
+
+## *Software Design and Engineering* ##
+---
+
+###### **Top-Down Design:** ######
+Focuses on working out the high level structure of the program first. This is used for large scale projects.
+
+###### **Bottom-Up Design:** ######
+Focuses on writing the base functionality of the program first.
+
