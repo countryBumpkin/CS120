@@ -5,6 +5,7 @@ _**Node:**_
 Private Variables:
 
 | Data Type | Variable Name | Purpose |
+|-----------|---------------|-------- |
 | string    | name          | Stores the name of the person that matches the id |
 | int       | ID            | Stores the id number of the person |
 | node*     | next1         | Points to the list item following the current node
