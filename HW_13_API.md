@@ -2,6 +2,8 @@
 
 Write code for a linked list that stores a name and user id. The program should add a total of four people to the linked list and print debugging statements to prove functionality is implemented.
 
+For basic code to implement the following functions, see the notes on Linked Lists.
+
 ## Class Node: ##
 
 Private Variables:
