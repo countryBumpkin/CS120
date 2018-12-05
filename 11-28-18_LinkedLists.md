@@ -11,25 +11,48 @@ Linked Lists are composed of nodes and each node is a variable of struct or clas
     };
     
 ## Adding Nodes ##
-The process for adding a node to the top of the list is as follows:
+The process for adding a node to the top of an empty list is as follows:
+    
+    node* ptr = new node();
+    head = ptr; // set the head to point to the new node
+    
+Or, if there is already a node in the list:
 
-    node new_node = new node(); // Create a new node
-    node *second_node = head;   // Save the pointer to the first node in the list
-    head = new_node;            // Set the head to point to the new node
-    new_node.next = second_node;// Set new node to point to the second node
+    node* ptr = new node();
+    ptr->next = head;
+    head = ptr;
     
 To add a node to the end of the list:
     
-    node *ptr = head;
-    while(ptr->next != NULL)
-      ptr = ptr->next;
-      
-    node new_node = new node();
-    ptr.next = &new_node;
+    node* ptr = new node();
+    node* temp = head;
     
- ## Removing Nodes ##
- To remove a node from the list:
+    while(temp->next != nullptr)
+      temp = temp->next;
+      
+    temp->next = ptr;
+    
+## Removing Nodes ##
+To remove the first node from the list:
  
     node *ptr = head;
     head = ptr->next;
     delete ptr;
+    
+To remove the last node:
+    
+    node* temp = head;
+    node* prev = head;
+    
+    while(temp->next != nullptr){
+        prev = temp;
+        temp->next = next;
+    }
+    
+    delete temp;
+    prev->next = nullptr;
+
+But if there is only one element:
+
+    head == nullptr;
+    head->next == nullptr;
