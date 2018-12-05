@@ -17,7 +17,7 @@ Private Variables:
 | set(string name, int id, node* ptr) | void | Sets the values of the node |
 | print    |  void       | Recursively prints the name and id of all nodes in the linked list|
 | search(int id)   |  string     | Recursively search all the nodes for an ID that matches ``id`` and return the name of the person with the matching id
-| queue(string name, int id) | void | Add a new node with ``name`` and ``id`` to the end of the queue
+| queue(string name, int id) | void | Add a new node with ``name`` and ``id`` to the end of the queue, should be recursive
 
 
 ## Main Function ##
