@@ -12,7 +12,7 @@ Private Variables:
 |-----------|---------------|-------- |
 | string    | name          | Stores the name of the person that matches the id |
 | int       | ID            | Stores the id number of the person |
-| node*     | next1         | Points to the list item following the current node
+| node*     | next         | Points to the list item following the current node
 
 | Function | Return Type | Purpose |
 | -------- | ----------- | ------- |
