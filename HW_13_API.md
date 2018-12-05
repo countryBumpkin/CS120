@@ -31,8 +31,8 @@ The main function should do the following:
 
 2. Test whether the print function works by printing the current list.
 3. Test whether the search function works by:
-    * searching for a node that is in the list
-    * searching for a node that is not in the list
+    * searching for a node that _**is**_ in the list
+    * searching for a node that _**is not**_ in the list
     
 4. Add a new node to the list using the ``queue(string, int)`` function.
     
