@@ -57,11 +57,11 @@ Be able to write recursive fuctions for simple math calculations such as:
 
 ## *Scope*
 1. Block
-  * Anything in {}
+   * Anything in {}
 2. File
-  * Essentially global scope
+   * Essentially global scope
 3. Function
-  * Only within a function
+   * Only within a function
 
 ## *Professional Ethics for Computer Programmers*
 * Privacy and Misuse of data
