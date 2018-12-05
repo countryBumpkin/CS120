@@ -58,9 +58,9 @@ Be able to write recursive fuctions for simple math calculations such as:
 ## *Scope*
 1. Block
    * Anything in {}
-2. File
+2. File/Global
    * Essentially global scope
-3. Function
+3. Local
    * Only within a function
 
 ## *Professional Ethics for Computer Programmers*
