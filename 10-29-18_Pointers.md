@@ -1,4 +1,4 @@
-# **Pointers** #
+# **Pointers Part 1** #
 ---
 Pointers are typed, which means they are not of type ``int``, ``double``, or other primitive data types. They are their own data type and can be read as "variable 'a' is a pointer to some other variable".
 
