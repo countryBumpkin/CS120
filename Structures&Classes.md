@@ -71,8 +71,8 @@ In C the differences between ``struct`` and ``class`` are significant, but in C+
       //...
     }
     
-#### Deconstructors ####
-Deconstructors are special functions called when deleting an object to prevent memory leaks caused by using heap memory. Variables created on the heap using the ``new`` operator are not deleted when the variable goes out of scope. Instead, the variables continue to take up space and may cause system crashes.
+#### Destructors ####
+Destructors are special functions called when deleting an object to prevent memory leaks caused by using heap memory. Variables created on the heap using the ``new`` operator are not deleted when the variable goes out of scope. Instead, the variables continue to take up space and may cause system crashes.
 
 So, if a variable is created like so:
 
