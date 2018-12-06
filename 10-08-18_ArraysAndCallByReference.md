@@ -30,7 +30,20 @@ _**Tips and Best Practice:**_
 This means that any assignment to the variable inside the function will modify the value of the variable outside of the function also.
 
 _**Example:**_
-
+    #include <iostream>
+    
     void myFunction(int &a, int &b){
-      a = a * b;
+      a = a * b; // This changes the value of a outside the function
+    }
+    
+    int main(void){
+      int a = 4;
+      int b = 3;
+      
+      myFunction(a, b);
+      
+      std::cout << "a = " << a << std::endl; // Prints: a = 12
+      std::cout << "b = " << b << std::endl; // Prints: b = 3
+      
+      return 0;
     }
