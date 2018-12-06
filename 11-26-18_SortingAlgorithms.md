@@ -8,6 +8,8 @@ Sorting algorithms take a list of elements, often primitive data types, and sort
 * Merge Sort
 * Quick Sort
 
+_**NOTE:**_ More information on this can be found at [VisuAlgo](https://visualgo.net/bn/sorting?slide=1).
+
 ## Insertion Sort
 *This sort is like sorting cards. You pick one and insert it into the "sorted" side of your hand. Repeat until all cards are sorted.*
 
