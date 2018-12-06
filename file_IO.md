@@ -1,6 +1,8 @@
 # _**Writing and Reading From Files**_ #
 These notes cover reading from and writing to files using the ``fstream`` library in C++.
 
+_**NOTE:**_ additional information can be found here [fstream library](https://en.cppreference.com/w/cpp/header/fstream)
+
 ## _**Writing to Files**_ ##
 Writing to files uses the ``ofstream`` library. Below is example code outlining how to to open the file, write some text to it, and then close the file:
 
