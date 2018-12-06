@@ -84,6 +84,6 @@ It must be deleted like so:
     
 For classes, which may have many variables created on the heap using ``new``, we must use the destructor to remove the variable from memory. You can refer to the code in the previous section for an example for how to use the destructor. 
 
-``ptr_a`` in the ``fruit`` class refers to an integer created on the heap by the constructor. If the integer on the heap is not deleted in another function using ``delete``, it must be removed in the destructor (``~fruit``).
+``ptr_a`` in the ``fruit`` class refers to an integer created on the heap by the constructor. If the integer on the heap is not deleted in another function using ``delete``, it must be removed in the destructor (``~fruit``). Destructors must be preceded by ``~`` and does not have a return type or take parameters. For more information see _CS120-L30-Dynamic Objects_ on BBLearn. 
  
 _**NOTE:**_ To learn more about heap memory see [Pointers & Memory](https://github.com/countryBumpkin/CS120/blob/master/10-31-18_Memory%26Pointers.md)
