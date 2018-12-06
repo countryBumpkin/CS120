@@ -44,8 +44,10 @@ Reading numbers and single characters from files is just as easy as reading whol
 
     infile >> num;
 or
+
     infile >> character;
 or
+
     infile >> double_number; // etc
     
 Reading whole lines from a file can also be done with the following code:
