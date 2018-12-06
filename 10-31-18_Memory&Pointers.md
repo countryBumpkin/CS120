@@ -1,4 +1,4 @@
-# *Pointers and Memory*
+# *Pointers and Memory Allocation*
 * Pointers
     * How to initialize pointers and use them with memory operations
 * Memory
