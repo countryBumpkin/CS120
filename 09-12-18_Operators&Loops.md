@@ -1,4 +1,4 @@
-# _**Operators**_ #
+# _**Operators and Loops**_ #
 
 ### Increment Operator(++) ###
 
