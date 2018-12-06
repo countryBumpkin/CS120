@@ -17,7 +17,7 @@
 
 
 # Looping
-  C++ will allow you to go beyond the max or min index of the array which will result in some funky and unpredictable behavior.
+C++ will allow you to go beyond the max or min index of the array which will result in some funky and unpredictable behavior.
 
 _**Tips and Best Practice:**_
 * Use const int to store the size of the array. This makes the array fixed. If the array is not declared using a const qualifier, the array may be resized to include more memory. This is dangerous because you may create memory leaks or share memory allocation with another program.
@@ -25,11 +25,11 @@ _**Tips and Best Practice:**_
 
 
 # Call By Reference
-
-  Call by reference passes a reference to a function instead of a data type.
+Call by reference passes a reference to a function instead of a data type.
 This means that any assignment to the variable inside the function will modify the value of the variable outside of the function also.
 
 _**Example:**_
+    
     #include <iostream>
     
     void myFunction(int &a, int &b){
