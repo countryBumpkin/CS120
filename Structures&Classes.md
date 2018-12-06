@@ -70,3 +70,5 @@ In C the differences between ``struct`` and ``class`` are significant, but in C+
     }
     
  That sums up the basics of classes...
+ 
+_**NOTE:**_ To learn more about heap memory see [Pointers & Memory]()
