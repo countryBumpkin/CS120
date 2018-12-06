@@ -62,7 +62,7 @@ In C the differences between ``struct`` and ``class`` are significant, but in C+
     
     fruit::~fruit(){
       // Delete all member variables created on the heap
-      // See [Pointers]()
+      // See [Pointers](https://github.com/countryBumpkin/CS120/blob/master/10-31-18_Memory%26Pointers.md)
     }
     
     fruit::func1(){ // This function must also be implemented outside the class
