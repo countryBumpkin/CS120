@@ -23,3 +23,12 @@ Dynamic Arrays can be used to save memory by resizing arrays with 'new' operator
 
     // Delete the array
     delete [] d; // requires the brackets to remove the array
+    
+    
+  2D Dynamic Arrays:
+  
+    int* arr[int_var];
+    
+    or
+    
+    int** arr = new (int*)[arr_size];
